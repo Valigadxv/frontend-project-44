@@ -10,5 +10,3 @@ console.log(`Hello, ${userName}!`);
 
 
 
-
-

@@ -13,5 +13,9 @@ lint:
 brain-even:
 	node bin/brain-even.js
 
+make lint:
+	npx eslint
 
+brain-calc:
+	node bin/brain-calc.js
 
