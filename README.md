@@ -8,9 +8,23 @@
 
 <h2>Brain-even</h2>
 
-<link rel="alternate" type="application/x-asciicast" href="https://asciinema.org/a/577910/">
-
-<p>asciinema play https://asciinema.org/a/577910/</p> 
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="asciinema-player.css" />
+</head>
+<body>
+  <div id="player"></div>
+  <script src="asciinema-player.min.js"></script>
+  <script>
+    AsciinemaPlayer.create(
+      '577910.cast',
+      document.getElementById('player'),
+      { cols: 129, rows: 24 }
+    );
+  </script>
+</body>
+</html>
 
 <video>
 
