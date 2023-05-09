@@ -8,7 +8,7 @@
 
 <h2>Brain-even</h2>
 <link rel="alternate" type="application/x-asciicast" href="https://asciinema.org/a/577910">
-"https://asciinema.org/a/577910"
+asciinema play https://asciinema.org/a/577910
 <a href=https://asciinema.org/a/582031></a>
 <a href=https://asciinema.org/a/582249></a>
 <a href=https://asciinema.org/a/583285></a>
