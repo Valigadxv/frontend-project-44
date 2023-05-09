@@ -10,7 +10,7 @@
 
 <link rel="alternate" type="application/x-asciicast" href="https://asciinema.org/a/577910/">
 
-<p>asciinema play https://asciinema.org/a/22124</p>
+<p>asciinema play https://asciinema.org/a/577910/</p> 
 
 <video>
 
