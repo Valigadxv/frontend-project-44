@@ -7,7 +7,11 @@
 <h3>"Brain Games": This is a project consisting of five console games to train your brain. Each game asks you three questions that you must answer correctly. If you answer all the questions, you are considered to have passed the game. If you answer incorrectly, the game will end and you will be asked to try again.</h3>
 
 <h2>Brain-even</h2>
+
+<link rel="alternate" type="application/x-asciicast" href="https://asciinema.org/a/577910">
+
 <video>
+
 <source src="https://asciinema.org/a/577910">
 </video>
 
