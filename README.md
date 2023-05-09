@@ -8,7 +8,9 @@
 
 <h2>Brain-even</h2>
 
-<link rel="alternate" type="application/x-asciicast" href="https://asciinema.org/a/577910">
+<link rel="alternate" type="application/x-asciicast" href="https://asciinema.org/a/577910/">
+
+<p>asciinema play https://asciinema.org/a/22124</p>
 
 <video>
 
