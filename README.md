@@ -1,10 +1,3 @@
-<link rel="alternate" type="application/x-asciicast" href="/my/ascii.cast">
-<img src="https://asciinema.org/a/582031" alt="asciinema brain even">
-asciinema play https://asciinema.org/a/582031
-asciinema play https://asciinema.org/a/583294
-<video>
- <source src="https://asciinema.org/a/582031">
-</video>
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Valigadxv/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/Valigadxv/frontend-project-44/actions)
 
