@@ -4,9 +4,10 @@
 
 ## Descriptopn
 
-"Brain Games": This is a project consisting of five console games to train your brain. Each game asks you three questions that you must answer correctly. If you answer all the questions, you are considered to have passed the game. If you answer incorrectly, the game will end and you will be asked to try again.
+"Brain Games" - are five logical mini-games to test and develop your thinking.
+To win, you need to give three correct answers in a row, and to lose, one wrong is enough.
 
-#Setting up
+### Setting up
 
 ```
 npm i
