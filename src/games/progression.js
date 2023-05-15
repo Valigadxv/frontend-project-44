@@ -1,26 +1,26 @@
-import gameLogic from "../index.js";
+import gameLogic from '../index.js';
+import randomInteger from '../utils.js';
 
 const makeRound = () => {
-    const numbers = Math.floor(Math.random() * 20);
-    const difNum = Math.floor(Math.random() * 7);
-    const array = [numbers];
-    let lastNumber = numbers;
-    const hidenNumbers = Math.floor(Math.random() * 9);
+  const initialTerm = randomInteger(1, 20);
+  const commonDifference = randomInteger(1, 7);
+  const arr = [initialTerm];
+  let lastNumber = initialTerm;
+  const hiddenIndex = randomInteger(0, 9);
 
-    for (let i = 0; i < 9; i += 1) {
-        array.push(lastNumber + difNum);
-        lastNumber += difNum;
-    }
-
-    const cloneArray = array.slice(0);
-    cloneArray[hidenNumbers] = '..';
-    const question = cloneArray.join(' ');
-    const correctAnswer = array[hidenNumbers].toString();
-    return [question, correctAnswer];
+  for (let i = 0; i < 9; i++) {
+    arr.push(lastNumber + commonDifference);
+    lastNumber += commonDifference;
+  }
+  const arrClone = arr.slice(0);
+  arrClone[hiddenIndex] = '..';
+  const question = arrClone.join(' ');
+  const correctAnswer = arr[hiddenIndex].toString();
+  return [question, correctAnswer];
 };
 
 const task = 'What number is missing in the progression ?';
 
 export default () => {
-    gameLogic(task, makeRound);
+  gameLogic(task, makeRound);
 };
