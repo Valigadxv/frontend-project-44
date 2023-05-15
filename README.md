@@ -1,3 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="asciinema-player.css" />
+</head>
+<body>
+  <div id="player"></div>
+  <script src="asciinema-player.min.js"></script>
+  <script>
+    AsciinemaPlayer.create(
+      '555789.cast',
+      document.getElementById('player'),
+      { cols: 83, rows: 38 }
+    );
+  </script>
+  
+</body>
+</html>
+
+
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Valigadxv/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/Valigadxv/frontend-project-44/actions)
 
@@ -7,8 +27,7 @@
 <h3>"Brain Games": This is a project consisting of five console games to train your brain. Each game asks you three questions that you must answer correctly. If you answer all the questions, you are considered to have passed the game. If you answer incorrectly, the game will end and you will be asked to try again.</h3>
 
 <h2>Brain-even</h2>
-<link rel="alternate" type="application/x-asciicast" href="https://asciinema.org/a/577910">
-asciinema play https://asciinema.org/a/577910
+https://asciinema.org/a/577910
 <a href=https://asciinema.org/a/582031></a>
 <a href=https://asciinema.org/a/582249></a>
 <a href=https://asciinema.org/a/583285></a>
