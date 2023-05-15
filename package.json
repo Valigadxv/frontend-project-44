@@ -1,7 +1,8 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/Valigadxv/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/Valigadxv/frontend-project-44/actions)",
+  "description": "Brain games - are five logical mini-games to test and develop your thinking.
+  To win, you need to give three correct answers in a row, and to lose, one wrong is enough.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
