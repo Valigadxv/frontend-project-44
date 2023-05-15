@@ -1,5 +1,6 @@
 <link rel="alternate" type="application/x-asciicast" href="/my/ascii.cast">
 <img src="https://asciinema.org/a/582031" alt="asciinema brain even">
+asciinema play https://asciinema.org/a/582031
 <video>
  <source src="https://asciinema.org/a/582031">
 </video>
