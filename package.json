@@ -1,8 +1,7 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "Brain games - are five logical mini-games to test and develop your thinking.
-  To win, you need to give three correct answers in a row, and to lose, one wrong is enough.",
+  "description": "'Brain Games': This is a project consisting of five console games to train your brain.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

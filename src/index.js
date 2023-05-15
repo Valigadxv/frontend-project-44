@@ -6,7 +6,9 @@ const gameLogic = (task, makeRound) => {
     console.log(`Hello, ${name}`);
     console.log(task);
 
-    for (let i = 0; i < 3; i++) {
+    const roundsCount = 3;
+
+    for (let i = 0; i < roundsCount; i++) {
         const [question, correctAnswer] = makeRound();
         console.log(`Question: ${question}`);
         const userAnswer = readlineSync.question('Your answer: ');
