@@ -1,23 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <link rel="stylesheet" type="text/css" href="asciinema-player.css" />
-</head>
-<body>
-  <div id="player"></div>
-  <script src="asciinema-player.min.js"></script>
-  <script>
-    AsciinemaPlayer.create(
-      '555789.cast',
-      document.getElementById('player'),
-      { cols: 83, rows: 38 }
-    );
-  </script>
-  
-</body>
-</html>
-
-
+<link rel="alternate" type="application/x-asciicast" href="/my/ascii.cast">
+asciinema play https://asciinema.org/a/582031
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Valigadxv/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/Valigadxv/frontend-project-44/actions)
 
