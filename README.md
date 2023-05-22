@@ -7,7 +7,12 @@
 "Brain Games" - are five logical mini-games to test and develop your thinking.
 To win, you need to give three correct answers in a row, and to lose, one wrong is enough.
 
-### Setting up
+## How to clone this project
+
+```
+git@github.com:Valigadxv/frontend-project-44.git
+```
+## Setting up
 
 ```
 npm i
