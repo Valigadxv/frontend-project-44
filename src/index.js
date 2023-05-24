@@ -21,4 +21,3 @@ const gameLogic = (task, makeRound) => {
 };
 
 export default gameLogic;
-

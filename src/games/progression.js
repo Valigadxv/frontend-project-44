@@ -1,21 +1,21 @@
 import gameLogic from '../index.js';
 import randomInteger from '../utils.js';
 
-const makeRound = () => {
-  const initialTerm = randomInteger(1, 20);
-  const commonDifference = randomInteger(1, 7);
-  const arr = [initialTerm];
-  let lastNumber = initialTerm;
-  const hiddenIndex = randomInteger(0, 9);
+const generateProgression = (start, step, length) => { 
+  const progression = [];
+  for (let i = 0; i < length; i++) { 
+    progression.push(start + step * i); 
+  };
+  return progression; 
+};
 
-  for (let i = 0; i < 9; i++) {
-    arr.push(lastNumber + commonDifference);
-    lastNumber += commonDifference;
-  }
-  const arrClone = arr.slice(0);
-  arrClone[hiddenIndex] = '..';
-  const question = arrClone.join(' ');
-  const correctAnswer = arr[hiddenIndex].toString();
+const makeRound = () => {
+  const progression = generateProgression(randomInteger(1, 3), randomInteger(1, 3), randomInteger(5, 10));
+  const hiddenIndex = randomInteger(0, progression.length - 1);
+  const correctAnswer = progression[hiddenIndex].toString();
+  progression[hiddenIndex] = '..';
+  const question = progression.join(' ');
+  
   return [question, correctAnswer];
 };
 
