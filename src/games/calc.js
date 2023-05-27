@@ -8,13 +8,13 @@ const getRandomOperator = () => {
   return operators[randomInteger(0, 2)];
 };
 
-const calculation = (num1, num2, operator) => { 
+const calculation = (num1, num2, operator) => {
   switch (operator) {
-    case '+':
+    case '+': 
       return num1 + num2;
-    case '-':
+    case '-': 
       return num1 - num2;
-    case '*':
+    case '*': 
       return num1 * num2;
     default:
       throw new Error(`Operator ${getRandomOperator} - is incorrect!`);
@@ -32,4 +32,4 @@ const makeRound = () => {
 
 export default () => {
   gameLogic(task, makeRound);
-};
+}; 
