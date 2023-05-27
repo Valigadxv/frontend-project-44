@@ -1,12 +1,12 @@
 import gameLogic from '../index.js';
 import randomInteger from '../utils.js';
 
-const generateProgression = (start, step, length) => { 
+const generateProgression = (start, step, length) => {
   const progression = [];
-  for (let i = 0; i < length; i++) { 
-    progression.push(start + step * i); 
-  };
-  return progression; 
+  for (let i = 0; i < length; i += 1) {
+    progression.push(start + step * i);
+  }
+  return progression;
 };
 
 const makeRound = () => {
@@ -15,7 +15,6 @@ const makeRound = () => {
   const correctAnswer = progression[hiddenIndex].toString();
   progression[hiddenIndex] = '..';
   const question = progression.join(' ');
-  
   return [question, correctAnswer];
 };
 

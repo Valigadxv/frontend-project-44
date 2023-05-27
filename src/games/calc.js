@@ -3,23 +3,23 @@ import randomInteger from '../utils.js';
 
 const task = 'What is the result of the expression?';
 
-const getRandomOperator = () => { 
+const getRandomOperator = () => {
   const operators = ['+', '-', '*'];
   return operators[randomInteger(0, 2)];
- };
+};
 
-const calculation = (num1, num2, operator) => { 
+const calculation = (num1, num2, operator) => {
   switch (operator) {
     case '+':
       return num1 + num2;
-    case '-': 
-      return num1 - num2; 
-    case '*': 
-      return num1 * num2; 
-    default: 
+    case '-':
+      return num1 - num2;
+    case '*':
+      return num1 * num2;
+    default:
       throw new Error(`Operator ${getRandomOperator} - is incorrect!`);
-    };
-  };
+  }
+};
 
 const makeRound = () => {
   const num1 = randomInteger(0, 100);
